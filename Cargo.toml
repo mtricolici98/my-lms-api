@@ -1,0 +1,12 @@
+[package]
+name = "my-lms-api"
+version = "0.1.0"
+authors = ["Antonio-Marius Tricolici"]
+edition = "2021"
+publish = false
+
+[workspace]
+members = [".", "api", "core", "entity", "migration"]
+
+[dependencies]
+api = { path = "api" }
